@@ -80,4 +80,6 @@ if __name__ == "__main__":
 
 
     args = parser.parse_args()
-    run(args.input_size,args.epochs,args.learning_rate,args.batch,args.imnet_path,args.architecture,args.resnet_weight_path,args.workers,args.shared_folder_path,args.job_id,args.local_rank,args.global_rank,args.num_tasks)
+    run(args.input_size,args.epochs,args.learning_rate,args.batch,args.imnet_path,
+        args.architecture,args.resnet_weight_path,args.workers,args.shared_folder_path,
+        args.job_id,args.local_rank,args.global_rank,args.num_tasks)

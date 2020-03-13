@@ -16,6 +16,7 @@ def run(input_sizes,epochs,learning_rate,batch,imnet_path,architecture,resnet_we
     cluster_cfg = ClusterConfig(dist_backend="nccl", dist_url="")
     shared_folder=None
     data_folder_Path=None
+    print(shared_folder_path)
     if Path(str(shared_folder_path)).is_dir():
         shared_folder=Path(shared_folder_path+"/finetune/")
     else:

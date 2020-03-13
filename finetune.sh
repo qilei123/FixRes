@@ -1,1 +1,1 @@
-python main_finetune.py --imnet-path "/data2/qilei_chen/DATA/GI_4" --shared-folder-path "/data2/qilei_chen/DATA/GI_4/FixRex"
+python main_finetune.py --imnet-path "/data2/qilei_chen/DATA/GI_4" --shared-folder-path "/data2/qilei_chen/DATA/GI_4"
